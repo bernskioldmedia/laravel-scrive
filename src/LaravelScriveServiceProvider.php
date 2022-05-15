@@ -2,9 +2,9 @@
 
 namespace BernskioldMedia\LaravelScrive;
 
+use BernskioldMedia\LaravelScrive\Commands\LaravelScriveCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BernskioldMedia\LaravelScrive\Commands\LaravelScriveCommand;
 
 class LaravelScriveServiceProvider extends PackageServiceProvider
 {
