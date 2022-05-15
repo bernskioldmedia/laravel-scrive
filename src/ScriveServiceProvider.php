@@ -37,6 +37,5 @@ class ScriveServiceProvider extends PackageServiceProvider
 
     protected function protectAgainstInvalidConfiguration(array $config): void
     {
-
     }
 }

@@ -3,12 +3,9 @@
 namespace BernskioldMedia\LaravelScrive\Resources;
 
 use BernskioldMedia\LaravelScrive\ScriveClient;
-use Illuminate\Support\Str;
-use ReflectionClass;
 
 abstract class BaseResource
 {
-
     public array $query = [];
     protected string $endpoint;
 
@@ -18,5 +15,4 @@ abstract class BaseResource
     }
 
     abstract protected function getEndpoint(): string;
-
 }

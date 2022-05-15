@@ -6,6 +6,4 @@ use Exception;
 
 class InvalidParameter extends Exception
 {
-
-
 }
