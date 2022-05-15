@@ -2,9 +2,9 @@
 
 namespace BernskioldMedia\LaravelScrive\Tests;
 
+use BernskioldMedia\LaravelScrive\LaravelScriveServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BernskioldMedia\LaravelScrive\LaravelScriveServiceProvider;
 
 class TestCase extends Orchestra
 {
