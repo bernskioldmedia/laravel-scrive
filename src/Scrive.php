@@ -2,6 +2,6 @@
 
 namespace BernskioldMedia\LaravelScrive;
 
-class LaravelScrive
+class Scrive
 {
 }

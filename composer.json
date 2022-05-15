@@ -4,7 +4,8 @@
     "keywords": [
         "bernskioldmedia",
         "laravel",
-        "laravel-scrive"
+        "laravel-scrive",
+        "scrive"
     ],
     "homepage": "https://github.com/bernskioldmedia/laravel-scrive",
     "license": "MIT",
@@ -16,7 +17,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.0",
         "spatie/laravel-package-tools": "^1.9.2",
         "illuminate/contracts": "^9.0"
     },
@@ -54,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BernskioldMedia\\LaravelScrive\\LaravelScriveServiceProvider"
+                "BernskioldMedia\\LaravelScrive\\ScriveServiceProvider"
             ],
             "aliases": {
-                "LaravelScrive": "BernskioldMedia\\LaravelScrive\\Facades\\LaravelScrive"
+                "Scrive": "BernskioldMedia\\LaravelScrive\\Facades\\Scrive"
             }
         }
     },

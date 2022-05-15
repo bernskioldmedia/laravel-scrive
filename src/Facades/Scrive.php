@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \BernskioldMedia\LaravelScrive\LaravelScrive
  */
-class LaravelScrive extends Facade
+class Scrive extends Facade
 {
     protected static function getFacadeAccessor()
     {
