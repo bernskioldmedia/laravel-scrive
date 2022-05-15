@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "bernskioldmedia/laravel-scrive",
+    "description": "A Laravel package to work with the Scrive e-signing service.",
     "keywords": [
-        ":vendor_name",
+        "bernskioldmedia",
         "laravel",
-        ":package_slug"
+        "laravel-scrive"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/bernskioldmedia/laravel-scrive",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Bernskiold Media",
+            "email": "hello@bernskioldmedia.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "BernskioldMedia\\LaravelScrive\\": "src",
+            "BernskioldMedia\\LaravelScrive\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "BernskioldMedia\\LaravelScrive\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "BernskioldMedia\\LaravelScrive\\LaravelScriveServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelScrive": "BernskioldMedia\\LaravelScrive\\Facades\\LaravelScrive"
             }
         }
     },

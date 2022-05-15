@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace BernskioldMedia\LaravelScrive;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use BernskioldMedia\LaravelScrive\Commands\LaravelScriveCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelScriveServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-scrive')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-scrive_table')
+            ->hasCommand(LaravelScriveCommand::class);
     }
 }
